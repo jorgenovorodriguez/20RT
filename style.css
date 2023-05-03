@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-  
+
   body {
     font-family: 'Times New Roman', Times, serif;
     height: 100vh;
@@ -23,8 +23,8 @@
     padding: 1rem;
     text-align: center;
     width: 100%;
-    position: absolute;
-    top: 0px;
+    /*position: absolute;*/
+    /*top: 0px;*/
     height: 20%;
     margin: 0 auto 1rem auto;
   }
@@ -48,7 +48,7 @@
     justify-content: center;
     margin-top: 2rem;
     width: 100%;
- 
+    flex-grow: 1;
   }
 
   section{
@@ -66,10 +66,9 @@
 
   footer {
     color: #fff;
-    position: absolute;
-    bottom:0;
     width: 100%;
     text-align: center;
+    padding: 1rem;
     }
 
 
@@ -147,6 +146,7 @@
       overflow: hidden;
       display: inline-block;
       flex-direction: row; 
+      padding: 1rem;
     } 
 
     li, img{
@@ -219,7 +219,6 @@
 
   footer {
     margin-top: 1rem;
-     position: sticky;
     }
 
 }
@@ -264,7 +263,6 @@
   
   footer {
     margin-top: 1rem;
-    position: sticky;
     }
 
 }
